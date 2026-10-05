@@ -20,11 +20,15 @@ Each item has a status (Unopened, Opened or Done). The use-by date is the printe
 ![Flow overview](screenshots/flow-overview.png)
 ![Flow logic](screenshots/flow-logic.png)
 
+**What the reminder looks like on my iPad:**
+
+![iPad notification](screenshots/ipad-notification.PNG)
+
 ## Limitations
 
 - **Repeat reminders:** the flow runs daily, so an item keeps getting reminders until I mark it Done.
 - **Shelf-life numbers are general guidelines.** The package label always wins. Health Canada covers dairy, eggs and leftovers. Produce numbers come from Love Food Hate Waste Canada, a non-government source.
-- **Calendar instead of push notifications:** I first used Power Automate's mobile notification, but Microsoft retired the mobile app in August 2026. I switched to Outlook calendar reminders.
+- **Calendar instead of push notifications:** I first tried using Power Automate's mobile notification, but Microsoft retired the mobile app in August 2026. I switched to Outlook calendar reminders.
 
 ## Tools
 Power Automate (cloud flow), Excel Online, Outlook Calendar
